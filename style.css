@@ -1,0 +1,89 @@
+/* #education{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ #education .hed4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#education .barc{
+    display: grid;
+    grid-template-rows: 60px 3px 200px 3px 200px 3px 60px;
+    grid-template-columns: 100px 10px 100px;
+    border: 1px solid black;
+place-content: center;
+}
+#box2{
+    grid-row: 2/3;
+    grid-column:1/2;
+}
+#box3{
+    grid-row: 6/7;
+    grid-column:1/2;
+}
+#box4{
+    grid-row: 1/8;
+    grid-column:2/3;
+}
+#box5{
+    grid-row: 4/5;
+    grid-column:3/4;
+}
+.bar1{
+    border:2px solid black;
+} */
+body{
+    /* height:100vh;
+    width:100%;   */
+    display: flex;
+    justify-content: space-between;
+}  
+.box{
+    background-color:black;
+    height: 100px;
+    width:100px;
+    border-radius:50%;
+    animation-name:jumpingballs;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+@keyframes jumpingballs{
+    100%{
+        transform:translateY(30vh);
+    }
+    
+}
+.box1
+{
+animation-delay: 0s;
+}
+.box2
+{
+    animation-delay: 0.2s;
+}
+.box3
+{
+    animation-delay: 0.4s;
+}
+.box4
+{
+    animation-delay: 0.6s;
+}
+.box5
+{
+    animation-delay: 0.4s;
+}
+.box6
+{
+    animation-delay:0.2s;
+}
+.box7
+{
+    animation-delay: 0s;
+}
